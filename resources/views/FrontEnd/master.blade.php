@@ -45,7 +45,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="m-0"><i class="fa fa-search me-2"></i>karya<span class="fs-5">One</span></h1>
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Karya<span class="fs-5">One</span></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -53,13 +53,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">find jobs</a>
-                        <a href="about.html" class="nav-item nav-link">portofolio</a>
-                        <a href="service.html" class="nav-item nav-link">about</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#jobs" class="nav-item nav-link active">Find Jobs</a>
+                        <a href="#portofolio" class="nav-item nav-link">Portofolio</a>
+                        <a href="#team" class="nav-item nav-link">Our Team</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="/login" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">login</a>
-                    <a href="/register" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">register</a>
+                    <a href="/login" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">Sign In</a>
+                    <a href="/register" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">Sign Up</a>
                 </div>
             </nav>
 
@@ -67,8 +67,8 @@
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4 animated zoomIn">Ciptakan peluang, wujudkan impian</h1>
-                            <p class="text-white pb-3 animated zoomIn">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
+                            <h1 class="text-white mb-4 animated zoomIn">Ciptakan Peluang, Wujudkan Impian</h1>
+                            <p class="text-white pb-3 animated zoomIn">Platform web freelancer terdepan untuk menciptakan peluang baru dan mewujudkan impianmu dengan kebebasan kreatif yang tak terbatas</p>
                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Cara Kerja</a>
                             
                         </div>
@@ -120,7 +120,7 @@
         <div class="container-xxl py-5" style="background-color: #b12121 ;">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h2 class="mt-2 text-white">What Solutions We Provide</h2>
+                    <h2 id="jobs">What Solutions We Provide</h2>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -214,7 +214,7 @@
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
-                    <h2 class="mt-2">Recently Launched Projects</h2>
+                    <h2 id="portofolio">Recently Launched Projects</h2>
                 </div>
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-12 text-center">
@@ -362,7 +362,7 @@
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
+                    <h6 id="team">Our Team</h6>
                     <h2 class="mt-2">Meet Our Team Members</h2>
                 </div>
                 <div class="row g-4">
@@ -428,7 +428,7 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <h5 id="contact">Get In Touch</h5>
                         <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                         <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
