@@ -63,12 +63,12 @@
                 </div>
             </nav>
 
+
             <div class="container-xxl py-5 hero-header mb-5">
                 <div class="container my-5 py-5 px-lg-5">
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Ciptakan Peluang, Wujudkan Impian</h1>
-                            <p class="text-white pb-3 animated zoomIn">Platform web freelancer terdepan untuk menciptakan peluang baru dan mewujudkan impianmu dengan kebebasan kreatif yang tak terbatas</p>
                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Cara Kerja</a>
                             
                         </div>
