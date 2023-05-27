@@ -53,13 +53,35 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="#jobs" class="nav-item nav-link active">Find Jobs</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Find Jobs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
+                              <li><a class="dropdown-item" href="/jobs">By Language</a></li>
+                            </ul>
+                          </li>                       
                         <a href="#portofolio" class="nav-item nav-link">Portofolio</a>
-                        <a href="#team" class="nav-item nav-link">Our Team</a>
+                        <a href="#team" class="nav-item nav-link">Review</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="/login" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">Sign In</a>
-                    <a href="/register" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">Sign Up</a>
+                        <div class="navbar-nav">
+                          <a href="/login" class="btn btn-danger text-light rounded-pill py-2 px-4 ms-3">Sign In</a>
+                          <li class="nav-item dropdown">
+                            <a class="btn btn-danger text-light rounded-pill py-2 px-4 ms-2" href="#" role="button" id="signUpDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sign Up
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="signUpDropdown">
+                              <li>
+                                <a class="dropdown-item" href="/register">Sign Up Freelance</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="/register">Sign Up Client</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </div>                 
                 </div>
             </nav>
 
@@ -69,6 +91,7 @@
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Ciptakan Peluang, Wujudkan Impian</h1>
+                            <p class="text-white pb-3 animated zoomIn">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Cara Kerja</a>
                             
                         </div>
@@ -130,7 +153,7 @@
                             </div>
                             <h5 class="mb-3">SEO Optimization</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -140,7 +163,7 @@
                             </div>
                             <h5 class="mb-3">Web Design</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -150,7 +173,7 @@
                             </div>
                             <h5 class="mb-3">Social Media Marketing</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -160,7 +183,7 @@
                             </div>
                             <h5 class="mb-3">Email Marketing</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -170,7 +193,7 @@
                             </div>
                             <h5 class="mb-3">PPC Advertising</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -180,7 +203,7 @@
                             </div>
                             <h5 class="mb-3">App Development</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +328,7 @@
 
 
         <!-- Testimonial Start -->
-        <div class="container-xxl py-5 my-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #b12121;">
+        <div class="container-xxl py-5 my-5 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #b12121;" id="team">
             <div class="container py-5 px-lg-5">
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
@@ -358,7 +381,7 @@
         <!-- Testimonial End -->
 
 
-        <!-- Team Start -->
+        <!-- Team Start 
         <div class="container-xxl py-5">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
@@ -420,15 +443,15 @@
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+        Team End -->
         
 
         <!-- Footer Start -->
-        <div class="container-fluid text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #b12121;">
+        <div class="container-fluid text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #b12121;" id="contact">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <h5 id="contact">Get In Touch</h5>
+                        <h5>Get In Touch</h5>
                         <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                         <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
