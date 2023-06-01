@@ -138,7 +138,7 @@ body {
                 <label for="">Password</label>
                 <input type="password" 
                 placeholder="Password">
-                <button>Login</button>
+                <button>Sign In</button>
                 <p>
                     <a href="#">Forgot Password</a>
                 </p>

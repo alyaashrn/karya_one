@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: #fff; font-weight: bold; font-size: 25px;">
+          <a class="navbar-brand" href="/" style="color: #fff; font-weight: bold; font-size: 25px;">
             <img src="img/logo-removebg-preview (1).png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top" style="margin-left: 25px;">
            KaryaOne 
           </a>
@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" style="margin-left: 30px;">
               <li class="nav-item ">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Find Jobs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
@@ -237,7 +237,7 @@
                                 <option value="option3">Highest bids /entries</option>
                             </select>
                             <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
-                            <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">QR Code Making</a>
+                            <a href="/jobdsc" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">QR Code Making</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">4 days left</span>
                             <div style="margin : 5px 20px 5px 25px">I need someone to generate a QR code for me to use on my website. The code will be used to direct users to a specific URL. I do not require any specific design elements for the code, so a standard design will suffice. However, I would like the code to be optimized for digital use. The ideal freelancer should have experience in creating QR codes and be familiar with digital optimization techniques</div>
                             <div>
@@ -249,7 +249,7 @@
                               <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Windows Desktop</a>
                               <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Classified E-commerce Platform(web, IOS, Android)</a>
+                              <a href="/jobdsc" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Classified E-commerce Platform(web, IOS, Android)</a>
                               <span style="display: inline-block; font-size: small; color: #666a6d;">6 days left</span>
                               <div style="margin : 5px 20px 5px 25px">I am looking for a talented developer company to help me create a classified ads platform. The app should have an Al search enabled, with a unique user interface design, we would like the app to be aes- thetically pleasing and easily navigable. To simplified the project I want to create an app which is just like "gintaa app and site with an additional features: 1. Shop for premium users...</div>
                               <div>
@@ -263,7 +263,7 @@
                                 <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Android</a>
                                 <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Website, searchable, dynamic</a>
+                              <a href="/jobdsc" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Website, searchable, dynamic</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">6 days left</span>
                             <div style="margin : 5px 20px 5px 25px">Seeking a skilled web developer to create a sleek and informative website. The purpose of the website is to provide information to visitors. I prefer a minimalist design that is easy to navigate and visually ap- pealing. The ideal candidate will be able to include a search function that allows users to easily find the information they need. No user registration is needed however I need to have the ability to easily update the content</div>
                                 <span class="text-format-1" style="margin:5px 0 5px 25px; font-weight: bold;">$429</span>
@@ -272,7 +272,7 @@
                               </div>
                                <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Repair my website fault</a>
+                              <a href="/jobdsc" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Repair my website fault</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">23 hours left</span>
                             <div style="margin : 5px 20px 5px 25px">I am in need of a skilled web developer who can repair the loading speed issue on my WordPress web- site. When a customer places an order there is a massive delay while they wait for confirmation which is leading to people dropping off, placing the order again as they think there is a problem or ringing to say the website is working. It appears that the cause of this that the website is traversing the entirety of that directory structure. As clients include images while ordering this directory is very large (76GB) hence t...</div>
                             <div>
@@ -284,7 +284,7 @@
                               <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Wordpress</a>
                               <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Need a simple website</a>
+                              <a href="/jobdsc" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Need a simple website</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">6 days left</span>
                             <div style="margin : 5px 20px 5px 25px">I am looking for a skilled website designer to create a simple website for my business. The website will be used to provide information about my company. Same design as "", and need admin panel to change all content, images... need within next sunday and my budget is Rs.7000</div>
                             <div>

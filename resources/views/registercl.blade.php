@@ -17,7 +17,7 @@ body {
     align-items: center;
     min-height: 100vh;
 
-    background-color: #d9534f;
+    background-color: #D3535C;
   }
   
 
@@ -28,10 +28,10 @@ body {
     background: #Ffff;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
-
   }
   .login{
     width: 400px;
+    flex: 1; 
   }
 
   form{
@@ -57,7 +57,7 @@ body {
 
   .left img{
     width: 450px;
-    height: 70%;
+    height: auto;
     object-position: 2px 95px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -98,6 +98,15 @@ body {
   button:hover{
     background: #CD3535;
   }
+  .password-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-group div {
+  width: calc(50% - 5px); /* Mengatur lebar setengah dari parent dengan sedikit jarak */
+  margin-right: 5px; /* Memberikan jarak antara kedua input */
+}
 
   @media (max-width: 880px){
     .container{
@@ -124,7 +133,7 @@ body {
     }
  }
     </style>
-    <title>Sign Up</title>
+    <title>Login</title>
   </head>
   <body>
     <div class="container">
@@ -139,21 +148,37 @@ body {
                 <label for="">Email</label>
                 <input type="text" 
                 placeholder="jhonthor4@gmail.com">
-                <label for="">Password</label>
-                <input type="password" 
-                placeholder="password">
-                <label for="">Ulangi Password</label>
-                <input type="password" 
-                placeholder="password">
-                <label for="">Tanggal lahir</label>
-                <input type="date" 
-                placeholder="date">
-                <button>Register</button>
+                <div class="password-group">
+                  <div>
+                    <label for="" style="font-size: 14px;">Password</label>
+                    <input type="password" placeholder="password">
+                  </div>
+                  <div>
+                    <label for="" style="font-size: 14px;">Ulangi Password</label>
+                    <input type="password" placeholder="password">
+                  </div>
+                </div>
+                <label for="">No Telepon</label>
+                <input type="text" 
+                placeholder="0895602365">
+                  <label for="" >Industri</label>
+                  <select id="tanggal-lahir" style="height: 35px; width: 250px;" >
+                    <option value="">Industri</option>
+                    <option value="">Pilih Industri</option>
+                    <option value="IT">Teknologi Informasi</option>
+                    <option value="Keuangan">Keuangan</option>
+                    <option value="Pendidikan">Pendidikan</option>
+                    <option value="Kesehatan">Kesehatan</option>
+                    <option value="Otomotif">Otomotif</option>
+                    <option value="Pariwisata">Pariwisata</option>
+                  </select>
+                  
+                <button>Sign Up</button>
             </form>
         </div>
-    <div class="left">
-        <img src="img/register.jpg" alt="">
+       <div class="left">
+      <img src="img/register.jpg" alt="">
     </div>
-    </div> 
+   </div> 
   </body>
 </html>

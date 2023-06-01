@@ -77,7 +77,7 @@
                                 <a class="dropdown-item" href="/register">Sign Up Freelance</a>
                               </li>
                               <li>
-                                <a class="dropdown-item" href="/register">Sign Up Client</a>
+                                <a class="dropdown-item" href="/registercl">Sign Up Client</a>
                               </li>
                             </ul>
                           </li>
