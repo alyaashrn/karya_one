@@ -30,3 +30,14 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/registercl', function () {
+    return view('registercl');
+});
+
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
+Route::get('/jobdsc', function () {
+    return view('jobdsc');
+});
