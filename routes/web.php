@@ -39,3 +39,14 @@ Route::get('/daftartugasfr', [DaftarTugasController::class, 'index']);
 Route::get('/portofolio', [PortofolioController::class, 'index']);
 Route::get('/dashboardcl', 'App\Http\Controllers\ClientController@index');
 Route::resource('/dashboardcl/job', DashboardClientController::class);
+Route::get('/registercl', function () {
+    return view('registercl');
+});
+
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
+Route::get('/jobdsc', function () {
+    return view('jobdsc');
+});
