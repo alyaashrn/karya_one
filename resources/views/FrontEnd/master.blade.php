@@ -69,6 +69,7 @@
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Ciptakan Peluang, Wujudkan Impian</h1>
+                            <P class="text-white">KaryaOne akan membantu dalam mewadahi minat dan bakat yang anda miliki setiap harinya </P>
                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Cara Kerja</a>
                             
                         </div>
@@ -120,7 +121,7 @@
         <div class="container-xxl py-5" style="background-color: #b12121 ;">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h2 id="jobs">What Solutions We Provide</h2>
+                    <h2 class="text-white mb-4 animated zoomIn"  id="jobs">Kategori</h2>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -214,14 +215,15 @@
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
-                    <h2 id="portofolio">Recently Launched Projects</h2>
+                    <h2 id="portofolio">Portofolio</h2>
                 </div>
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-12 text-center">
                         <ul class="list-inline mb-5" id="portfolio-flters">
                             <li class="btn px-3 pe-4 active" data-filter="*">All</li>
                             <li class="btn px-3 pe-4" data-filter=".first">Design</li>
-                            <li class="btn px-3 pe-4" data-filter=".second">Development</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">Programming Web & Mobile</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">Writing</li> 
                         </ul>
                     </div>
                 </div>

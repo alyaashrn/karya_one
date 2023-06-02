@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DaftarTugasController;
+use App\Http\Controllers\DashboardClientController;
+use App\Http\Controllers\PortofolioController;
+use App\Http\Controllers\ClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +34,8 @@ Route::get('/register', function () {
     return view('register');
 });
 
+Route::get('/dashboardfr', 'App\Http\Controllers\DashboardfrController@index');
+Route::get('/daftartugasfr', [DaftarTugasController::class, 'index']);
+Route::get('/portofolio', [PortofolioController::class, 'index']);
+Route::get('/dashboardcl', 'App\Http\Controllers\ClientController@index');
+Route::resource('/dashboardcl/job', DashboardClientController::class);
