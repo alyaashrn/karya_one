@@ -59,7 +59,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
-                              <li><a class="dropdown-item" href="/jobs">By Language</a></li>
+                              <li><a class="dropdown-item" href="/jobsin">By Language</a></li>
                             </ul>
                           </li>                       
                         <a href="#portofolio" class="nav-item nav-link">Portofolio</a>
