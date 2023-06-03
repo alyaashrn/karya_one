@@ -52,7 +52,7 @@
   </nav>
   <nav class="navbar bg-body-secondary">
     <div class="container-fluid">
-      <span class="navbar-text" style="font-size:40px; font-weight: bolder; margin-left: 35px;">QR Code Making</span>
+      <span class="navbar-text" style="font-size:40px; font-weight: bolder; margin-left: 35px;">Pembuatan Kode QR</span>
       <span class="navbar-text" style="font-size:30px; font-weight: bolder; margin-left: 60px; margin-right: 40px;">Budget $15</span>
     </div>
     </nav>
@@ -61,16 +61,16 @@
         <tr>
           <td style="width: 100%; border: 1px solid #ccc; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
             <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 5px 25px; font-size: medium; color: #000;">Job Description :</a>
-            <div style="margin : 5px 20px 5px 25px">We are looking for a freelance QR code maker to create high-quality QR codes for our clients. As a QR code maker, your main responsibility will be to generate QR codes based on the provided information or requirements. You will need to have a good understanding of QR code standards and best practices to ensure accurate and functional QR codes.</div>
+            <div style="margin : 5px 20px 5px 25px">Saya membutuhkan seseorang yang dapat membuatkan saya sebuah kode QR untuk digunakan di website saya. Kode tersebut akan digunakan untuk mengarahkan pengguna ke URL tertentu. Saya tidak membutuhkan elemen desain khusus untuk kode tersebut, sehingga desain standar sudah cukup. Namun, saya ingin kode tersebut dioptimalkan untuk penggunaan digital.Freelancer ideal harus memiliki pengalaman dalam membuat kode QR dan familiar dengan teknik-teknik optimasi digital. </div>
             <a href="#" style="text-decoration: none; display: inline-block; margin : 10px 5px 5px 25px; font-size: medium; color: #000;">Requirenment :</a>
             <div class="text-left">
               <ul style="list-style-type: disc; margin-top: 5px; margin-right: 30px; margin-left: 50px;">
-                <li>Proficiency in QR code generation tools and software.</li>
-                <li>Familiarity with QR code standards and best practices.</li>
-                <li>Attention to detail and strong quality control skill.</li>
-                <li> Excellent problem-solving and troubleshooting abilities.</li>
-                <li> Effective communication skills to collaborate with clients.</li>
-                <li>Time management skills to meet project deadlines</li>
+                <li>Mahir dalam penggunaan alat dan perangkat lunak pembuatan QR code.</li>
+                <li> Familiar dengan standar QR code dan praktik terbaik.</li>
+                <li>Memiliki perhatian terhadap detail dan keterampilan kontrol kualitas yang baik.</li>
+                <li>Kemampuan pemecahan masalah dan penyelesaian yang baik.</li>
+                <li>Kemampuan komunikasi yang efektif untuk berkolaborasi dengan klien.</li>
+                <li>Kemampuan manajemen waktu untuk memenuhi tenggat waktu proyek.</li>
               </ul>
             </div>
             <a href="#" style="text-decoration: none; display: inline-block; margin : 5px 5px 5px 25px; font-size: medium; color: #000; font-weight: bolder;">Skils :</a>

@@ -41,3 +41,7 @@ Route::get('/jobs', function () {
 Route::get('/jobdsc', function () {
     return view('jobdsc');
 });
+
+Route::get('/jobsin', function () {
+    return view('jobsin');
+});
