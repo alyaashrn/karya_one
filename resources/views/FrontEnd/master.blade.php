@@ -58,7 +58,7 @@
                               Find Jobs
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
+                              <li><a class="dropdown-item" href="/jobsin">By Skill</a></li>
                               <li><a class="dropdown-item" href="/jobsin">By Language</a></li>
                             </ul>
                           </li>                       
@@ -153,7 +153,7 @@
                             </div>
                             <h5 class="mb-3">SEO Optimization</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -163,7 +163,7 @@
                             </div>
                             <h5 class="mb-3">Web Design</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -173,7 +173,7 @@
                             </div>
                             <h5 class="mb-3">Social Media Marketing</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -183,7 +183,7 @@
                             </div>
                             <h5 class="mb-3">Email Marketing</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -193,7 +193,7 @@
                             </div>
                             <h5 class="mb-3">PPC Advertising</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -203,7 +203,7 @@
                             </div>
                             <h5 class="mb-3">App Development</h5>
                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
                         </div>
                     </div>
                 </div>

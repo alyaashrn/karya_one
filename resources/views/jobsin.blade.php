@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: #fff; font-weight: bold; font-size: 25px;">
+          <a class="navbar-brand" href="/" style="color: #fff; font-weight: bold; font-size: 25px;">
             <img src="img/logo-removebg-preview (1).png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top" style="margin-left: 25px;">
            KaryaOne 
           </a>
@@ -237,7 +237,7 @@
                                 <option value="option3">Harga penawaan tertinggi</option>
                             </select>
                             <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
-                            <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Pembuatan Kode QR</a>
+                            <a href="/jobsin" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Pembuatan Kode QR</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">4 hari lagi</span>
                             <div style="margin : 5px 20px 5px 25px">Saya membutuhkan seseorang yang dapat membuatkan saya sebuah kode QR untuk digunakan di website saya. Kode tersebut akan digunakan untuk mengarahkan pengguna ke URL tertentu. Saya tidak membutuhkan elemen desain khusus untuk kode tersebut, sehingga desain standar sudah cukup. Namun, saya ingin kode tersebut dioptimalkan untuk penggunaan digital. Freelancer ideal harus memiliki pengalaman dalam membuat kode QR dan familiar dengan teknik-teknik optimasi digital.</div>
                             <div>
@@ -249,7 +249,7 @@
                               <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Windows Desktop</a>
                               <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Platform E-commerce Klasifikasi (web, iOS, Android)</a>
+                              <a href="/jobsin" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Platform E-commerce Klasifikasi (web, iOS, Android)</a>
                               <span style="display: inline-block; font-size: small; color: #666a6d;">6 hari lagi</span>
                               <div style="margin : 5px 20px 5px 25px">Saya sedang mencari perusahaan pengembang yang berbakat untuk membantu saya membuat platform iklan klasifikasi. Aplikasi ini harus memiliki fitur pencarian Al yang diaktifkan, dengan desain antarmuka pengguna yang unik. Kami ingin aplikasi ini memiliki tampilan yang menarik secara estetis dan mudah dinavigasi. Untuk menyederhanakan proyek, saya ingin membuat aplikasi yang mirip dengan "gintaa app" dan situs dengan fitur tambahan</div>
                               <div>
@@ -263,7 +263,7 @@
                                 <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Android</a>
                                 <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Website, dapat dicari, dinamis</a>
+                              <a href="/jobsin" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Website, dapat dicari, dinamis</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">6 hari lagi</span>
                             <div style="margin : 5px 20px 5px 25px">Sedang mencari seorang pengembang web yang terampil untuk membuat website yang elegan dan informatif. Tujuan dari website ini adalah menyediakan informasi kepada pengunjung. Saya lebih suka desain minimalis yang mudah dinavigasi dan menarik secara visual. Kandidat ideal akan mampu menyertakan fungsi pencarian yang memungkinkan pengguna dengan mudah menemukan informasi yang mereka butuhkan. Tidak diperlukan registrasi pengguna, namun saya perlu memiliki kemampuan untuk dengan mudah memperbarui konten.</div>
                                 <span class="text-format-1" style="margin:5px 0 5px 25px; font-weight: bold;">$429</span>
@@ -272,7 +272,7 @@
                               </div>
                                <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Perbaiki kesalahan di website saya</a>
+                              <a href="/jobsin" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Perbaiki kesalahan di website saya</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">23 jam lagi</span>
                             <div style="margin : 5px 20px 5px 25px">Saya membutuhkan seorang pengembang web yang terampil yang dapat memperbaiki masalah kecepatan muat pada website WordPress saya. Saat seorang pelanggan melakukan pemesanan, terjadi penundaan yang besar saat mereka menunggu konfirmasi, yang menyebabkan orang-orang membatalkan pesanan, melakukan pemesanan ulang karena mereka mengira ada masalah, atau menghubungi kami untuk mengatakan bahwa website tidak berfungsi. Tampaknya penyebabnya adalah website tersebut mengunjungi seluruh struktur direktori. Karena klien menyertakan gambar saat melakukan pemesanan, direktori ini sangat besar (76GB), oleh karena itu....</div>
                             <div>
@@ -284,7 +284,7 @@
                               <a href="#" style="text-decoration: none; display: inline-block; margin : 15px 15px 10px 5px; font-size: small; color: #5451dadc;">Wordpress</a>
                               <hr style="border: none; border-top: 1px solid #000; margin: 10px 0;">
                               
-                              <a href="#" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Membutuhkan website sederhana</a>
+                              <a href="/jobsin" style="text-decoration: none; display: inline-block; margin : 20px 5px 10px 25px; font-size: medium; color: #000; font-weight: bold;">Membutuhkan website sederhana</a>
                             <span style="display: inline-block; font-size: small; color: #666a6d;">6 hari lagi</span>
                             <div style="margin : 5px 20px 5px 25px">Saya sedang mencari seorang desainer website terampil untuk membuat website sederhana untuk bisnis saya. Website ini akan digunakan untuk memberikan informasi tentang perusahaan saya. Desain yang sama seperti "", dan membutuhkan panel admin untuk mengubah semua konten, gambar... Dibutuhkan dalam waktu minggu depan dan anggaran saya adalah Rs.7000</div>
                             <div>
