@@ -5,6 +5,7 @@ use App\Http\Controllers\DaftarTugasController;
 use App\Http\Controllers\DashboardClientController;
 use App\Http\Controllers\PortofolioController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\RegisterClientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,12 +34,16 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
-
-Route::get('/dashboardfr', 'App\Http\Controllers\DashboardfrController@index');
-Route::get('/daftartugasfr', [DaftarTugasController::class, 'index']);
-Route::get('/portofolio', [PortofolioController::class, 'index']);
-Route::get('/dashboardcl', 'App\Http\Controllers\ClientController@index');
-Route::resource('/dashboardcl/job', DashboardClientController::class);
+Route::post('/registerfreelance', [RegisterClientController::class, 'store'])->name('register.post');
+Route::group(['middleware' => 'cekrol:1'],function(){
+    Route::get('/dashboardcl', 'App\Http\Controllers\ClientController@index');
+    Route::resource('/dashboardcl/job', DashboardClientController::class);
+});
+Route::group(['middleware' => 'cekrol:2'],function(){
+    Route::get('/dashboardfr', 'App\Http\Controllers\DashboardfrController@index');
+    Route::get('/daftartugasfr', [DaftarTugasController::class, 'index']);
+    Route::get('/portofolio', [PortofolioController::class, 'index']);
+});
 Route::get('/registercl', function () {
     return view('registercl');
 });

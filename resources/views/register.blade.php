@@ -129,26 +129,25 @@ body {
   <body>
     <div class="container">
         <div class="login">
-            <form action="">
+            <form action="{{ route('register.post') }}" method="post">
+              @csrf
                 <h1>Sign Up</h1>
                 <hr>
                 <p>KaryaOne</p>
                 <label for="">Nama Lengkap/Username</label>
-                <input type="text"
+                <input name="nama" type="text"
                 placeholder="Jhon Thor">
                 <label for="">Email</label>
-                <input type="text" 
+                <input name="email" type="text" 
                 placeholder="jhonthor4@gmail.com">
                 <label for="">Password</label>
-                <input type="password" 
-                placeholder="password">
-                <label for="">Ulangi Password</label>
-                <input type="password" 
+                <input name="password" type="password" 
                 placeholder="password">
                 <label for="">Tanggal lahir</label>
-                <input type="date" 
+                <input name="ttl" type="date" 
                 placeholder="date">
-                <button>Register</button>
+                <input name="aksesrol" value="2" type="hidden">
+                <button type="submit">Register</button>
             </form>
         </div>
     <div class="left">
@@ -156,4 +155,5 @@ body {
     </div>
     </div> 
   </body>
+ 
 </html>

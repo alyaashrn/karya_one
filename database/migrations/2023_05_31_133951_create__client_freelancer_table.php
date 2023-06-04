@@ -11,9 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('_client_freelancer', function (Blueprint $table) {
+        Schema::create('clientfreelancer', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('nama');
+            $table->string('email');
+            $table->string('password');
+            $table->string('noHP')->nullable();
+            $table->string('industri')->nullable();
+            $table->datetime('ttl')->nullable();
+            $table->integer('aksesrol');
         });
     }
 
@@ -22,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('_client_freelancer');
+        Schema::dropIfExists('clientfreelancer');
     }
 };

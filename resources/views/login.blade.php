@@ -148,6 +148,16 @@ body {
         <img src="img/login.jpg" alt="">
     </div>
 
-    </div> 
+    </div>
+    
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    @if($message = Session::get('success'))
+Swal.fire(
+  '{{ $message }}',
+  'success'
+)
+@endif
+  </script>
 </html>

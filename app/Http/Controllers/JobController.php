@@ -9,7 +9,7 @@ class JobController extends Controller
     public function job(){
         return view('job', [
             "title" => "Job",
-            "datadokter" => JobModel::all()
+            "datajob" => JobModel::all()
         ]);
     }
 }

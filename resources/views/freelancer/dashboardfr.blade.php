@@ -7,17 +7,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar bg-danger">
-        <div class="container">
-          <a class="navbar-brand" href="/" style="color: #fff; font-weight: bold; font-size: 25px;">
-            <img src="img/logo-removebg-preview (1).png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top" style="margin-left: 25px;">
-           KaryaOne 
-          </a>
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container">
+        <a class="navbar-brand" href="/" style="color: #fff; font-weight: bold; font-size: 25px;">
+          <img src="img/logo-removebg-preview (1).png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top" style="margin-left: 25px;">
+         KaryaOne 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/portofolio" style="color : #fff">Portofolio</a>
+              <a class="nav-link active" aria-current="page" href="/portofolio" style="color: #fff">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #fff">Profile</a>
+            </li>
           </ul>
         </div>
+      </div>
     </nav>
       <nav class="navbar bg-body-secondary">
         <div class="container-fluid">

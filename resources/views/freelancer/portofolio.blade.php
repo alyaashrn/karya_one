@@ -24,48 +24,86 @@
       <section id="projects" class="mb-5">
         <div class="container pt-4">
           <div class="row">
-           <div class="col-md ms-auto">
-            <div class="card mb-2">
-                <img src="img/porto1new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                  <p class="card-text">by Zelika.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-            </div> 
-           </div>
-           <div class="col-4">
-            <h4 style="text-align: center">My Portofolio</h4>
-            <div class="card mb-2">
-                <img src="img/porto2new.jpg" class="card-img-top" alt="...">
-                
-                <div class="card-body">
-                    <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                    <p class="card-text">by Zelika.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-            </div> 
-           </div>
-           <div class="col-8">
-            <div class="card mb-2">
-                <img src="img/porto3new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                    <p class="card-text">by Zelika.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-            </div> 
-           </div>
-           <div class="col-8">
-            <div class="card mb-2">
-                <img src="img/Photo.jpg" class="card-img-top" alt="...">
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/portover1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-            </div> 
-           </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/portover2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/portover3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/portover4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" onclick="show({{$dokter->idDokter}})" class="btn btn-info center-block my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Lihat Detail</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="img/portover5.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 pt-4">
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

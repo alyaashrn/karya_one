@@ -4,21 +4,15 @@
 
 
 @section('container')
-
-<h1>ini halaman job</h1>
 @if(session()->has('success')) 
 <div class="alert alert-primary" role="alert">
   {{session('success')}}
  </div>
 @endif 
 
-
-
-@endsection
-
 <div class="table-responsive">
   <table class="table table-striped table-sm">
-    <a href="/dashboardcl/createjob" class="btn btn-danger">Create</a>
+    <a href="/dashboardcl/job/create" class="btn btn-danger">Create</a>
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -39,7 +33,7 @@
           <td>{{ $job->deskripsi}}</td>
           <td>{{ $job->syarat}}</td>
           <td>
-            <a href="/dashboard/job/{{ $job->idPekerjaan }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
+            <a href="/dashboardcl/job/{{ $job->idPekerjaan }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
             <form action="{{ route('job.destroy', ['job' => $job->idPekerjaan]) }}" method="post" class="d-inline">
               @method('delete')
               @csrf
@@ -51,4 +45,7 @@
       </tbody>
   </table>
 </div>
+@endsection
+
+
 
