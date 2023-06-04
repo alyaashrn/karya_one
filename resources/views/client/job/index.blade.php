@@ -18,13 +18,13 @@
 
 <div class="table-responsive">
   <table class="table table-striped table-sm">
-    <a href="/dashboardcl/createjob" class="btn btn-primary">Create</a>
+    <a href="/dashboardcl/createjob" class="btn btn-danger">Create</a>
     <thead>
       <tr>
         <th scope="col">#</th>
         <th scope="col">Nama Pekerjaan</th>
+        <th scope="col">Kategori</th>
         <th scope="col">Gaji</th>
-        <th scope="col">Keahlian</th>
         <th scope="col">Deskripsi</th>
         <th scope="col">Syarat Keahlian</th>
       </tr>

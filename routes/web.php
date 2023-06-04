@@ -50,3 +50,6 @@ Route::get('/jobs', function () {
 Route::get('/jobdsc', function () {
     return view('jobdsc');
 });
+Route::get('/byportofolio', function () {
+    return view('byportofolio');
+});

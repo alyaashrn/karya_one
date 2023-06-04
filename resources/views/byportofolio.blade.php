@@ -21,54 +21,100 @@
           <button class="btn btn-outline-danger" type="submit">Search</button>
         </form>
       </div>
-      <section id="projects" class="mb-5">
-        <div class="container pt-4">
-          <div class="row">
-           <div class="col-md ms-auto">
-            <div class="card mb-2">
-                <img src="img/porto1new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                  <p class="card-text">by Zelika.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <!-- Portfolio Start -->
+      <div class="container-xxl py-5">
+        <div class="container px-lg-5">
+            <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
+                <h2 id="portofolio">Portofolio</h2>
+            </div>
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="btn px-3 pe-4 active" data-filter="*">All</li>
+                        <li class="btn px-3 pe-4" data-filter=".first">Design</li>
+                        <li class="btn px-3 pe-4" data-filter=".second">Programming Web & Mobile</li>
+                        <li class="btn px-3 pe-4" data-filter=".second">Writing</li> 
+                    </ul>
                 </div>
-            </div> 
-           </div>
-           <div class="col-4">
-            <h4 style="text-align: center">My Portofolio</h4>
-            <div class="card mb-2">
-                <img src="img/porto2new.jpg" class="card-img-top" alt="...">
-                
-                <div class="card-body">
-                    <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                    <p class="card-text">by Zelika.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> 
-           </div>
-           <div class="col-8">
-            <div class="card mb-2">
-                <img src="img/porto3new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Scriptwriting Shopping Portofolio</h5>
-                    <p class="card-text">by Zelika.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> 
-           </div>
-           <div class="col-8">
-            <div class="card mb-2">
-                <img src="img/Photo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> 
-           </div>
-          </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
+                    <div class="position-relative rounded overflow-hidden">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-overlay">
+                            <a class="btn btn-light" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                            <div class="mt-auto">
+                                <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
+                                <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </div>
+    <!-- Portfolio End -->
       <div class="container-fluid text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: #b12121;">
         <div class="container py-5 px-lg-5">
             <div class="row g-5">

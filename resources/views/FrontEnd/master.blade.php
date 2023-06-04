@@ -59,7 +59,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
-                              <li><a class="dropdown-item" href="/jobs">By Language</a></li>
+                              <li><a class="dropdown-item" href="/byportofolio">By Portofolio</a></li>
                             </ul>
                           </li>                       
                         <a href="#portofolio" class="nav-item nav-link">Portofolio</a>
@@ -116,17 +116,18 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative mb-4 pb-2">
-                            <h2 class="mt-2">The best solution in finding work and finding freelancers</h2>
+                            <h2 class="mt-2">
+                                Solusi terbaik dalam mencari pekerjaan dan membuat karya</h2>
                         </div>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p class="mb-4">platform online yang menyediakan layanan pencarian dan penawaran lowongan pekerjaan terpercaya di berbagai industri dan sektor. Kami bertekad untuk membantu Anda menemukan peluang pekerjaan yang sesuai dengan kualifikasi dan minat Anda sesuai dengan ketertarikan dan portofolio yang anda buat</p>
                         <div class="row g-3">
                             <div class="col-sm-6">
-                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Award Winning</h6>
-                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Professional Staff</h6>
+                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Mudah Digunakan</h6>
+                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Tanggapan Client yang Cepat</h6>
                             </div>
                             <div class="col-sm-6">
-                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>24/7 Support</h6>
-                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Fair Prices</h6>
+                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Dapat Dipantau</h6>
+                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Fleksibel</h6>
                             </div>
                         </div>
                         
@@ -151,8 +152,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">SEO Optimization</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Web & Programming</h5>
+                            <p>Menyediakan pekerjaan berupa menggunakan PHP, JavaScript, Wordpress, HTML, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -161,8 +162,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Web Design</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Design</h5>
+                            <p>Menyediakan pekerjaan Desain Website, Poster, Logo, Ilustrasi, dan Animasi, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -171,8 +172,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Social Media Marketing</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Writing</h5>
+                            <p>Menyediakan pekerjaan Writing berupa Scriptwriting, Content Writing, SEO Writing, Blog Writing dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -181,8 +182,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Email Marketing</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Mobile App Development</h5>
+                            <p>Menyediakan pekerjaan Mobile berupa IOS programming, native, android programming, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -191,8 +192,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">PPC Advertising</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Photography</h5>
+                            <p>Menyediakan pekerjaan Photography berupa Photo jurnalis, Potrait Photograph, Foto Komersil, Foto Abstrak, dsb.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -201,8 +202,8 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">App Development</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <h5 class="mb-3">Penerjemah</h5>
+                            <p>Menyediakan pekerjaan Penerjemah berupa penerjemah Bahasa Inggris, Prancis, Korea, Jepang, dsb.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
@@ -334,45 +335,45 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi4.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Alya Syifa F</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi2.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Zelika Ameria</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi1.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Diva Zahraisya P</h6>
+                                <small>Siswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi3.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Alya Sahrani</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
