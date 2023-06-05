@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'cekrol' => [
+            'driver' => 'session',
+            'provider' => 'cekrols',
+        ],
     ],
 
     /*
@@ -64,13 +68,16 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
+        'cekrols' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\ClientModel::class,
+        ],
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
         // ],
     ],
-
+    
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
@@ -94,6 +101,13 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_reset_tokens',
+            'expire' => 60,
+            'throttle' => 60,
+            
+        ],
+        'cekrols' => [
+            'provider' => 'cekrols',
+            'table' => 'remerber_me',
             'expire' => 60,
             'throttle' => 60,
         ],

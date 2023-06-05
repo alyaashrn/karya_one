@@ -138,31 +138,28 @@ body {
   <body>
     <div class="container">
         <div class="login">
-            <form action="">
+            <form action="{{ route('register.post') }}" method="post"> 
+              @csrf
                 <h1>Sign Up</h1>
                 <hr>
                 <p>KaryaOne</p>
                 <label for="">Nama Lengkap/Username</label>
-                <input type="text"
+                <input name="nama" type="text"
                 placeholder="Jhon Thor">
                 <label for="">Email</label>
-                <input type="text" 
+                <input name="email" type="text" 
                 placeholder="jhonthor4@gmail.com">
                 <div class="password-group">
                   <div>
                     <label for="" style="font-size: 14px;">Password</label>
-                    <input type="password" placeholder="password">
-                  </div>
-                  <div>
-                    <label for="" style="font-size: 14px;">Ulangi Password</label>
-                    <input type="password" placeholder="password">
+                    <input name="password" type="password" placeholder="password">
                   </div>
                 </div>
                 <label for="">No Telepon</label>
-                <input type="text" 
+                <input name="noHP" type="text" 
                 placeholder="0895602365">
                   <label for="" >Industri</label>
-                  <select id="tanggal-lahir" style="height: 35px; width: 250px;" >
+                  <select name="industri" id="tanggal-lahir" style="height: 35px; width: 250px;" >
                     <option value="">Industri</option>
                     <option value="">Pilih Industri</option>
                     <option value="IT">Teknologi Informasi</option>
@@ -172,8 +169,8 @@ body {
                     <option value="Otomotif">Otomotif</option>
                     <option value="Pariwisata">Pariwisata</option>
                   </select>
-                  
-                <button>Sign Up</button>
+                  <input name="aksesrol" value="1" type="hidden">
+                <button type="submit">Sign Up</button>
             </form>
         </div>
        <div class="left">

@@ -58,8 +58,9 @@
                               Find Jobs
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="/jobsin">By Skill</a></li>
-                              <li><a class="dropdown-item" href="/jobsin">By Language</a></li>
+
+                              <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
+                              <li><a class="dropdown-item" href="/byportofolio">By Portofolio</a></li>
                             </ul>
                           </li>                       
                         <a href="#portofolio" class="nav-item nav-link">Portofolio</a>
@@ -91,7 +92,7 @@
                     <div class="row g-5 py-5">
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="text-white mb-4 animated zoomIn">Ciptakan Peluang, Wujudkan Impian</h1>
-                            <p class="text-white pb-3 animated zoomIn">Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor sed justo kasd. Ut dolor sed magna dolor sea diam. Sit diam sit justo amet ipsum vero ipsum clita lorem</p>
+                            <P class="text-white">KaryaOne akan membantu dalam mewadahi minat dan bakat yang anda miliki setiap harinya </P>
                             <a href="" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Cara Kerja</a>
                             
                         </div>
@@ -116,17 +117,18 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="section-title position-relative mb-4 pb-2">
-                            <h2 class="mt-2">The best solution in finding work and finding freelancers</h2>
+                            <h2 class="mt-2">
+                                Solusi terbaik dalam mencari pekerjaan dan membuat karya</h2>
                         </div>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p class="mb-4">platform online yang menyediakan layanan pencarian dan penawaran lowongan pekerjaan terpercaya di berbagai industri dan sektor. Kami bertekad untuk membantu Anda menemukan peluang pekerjaan yang sesuai dengan kualifikasi dan minat Anda sesuai dengan ketertarikan dan portofolio yang anda buat</p>
                         <div class="row g-3">
                             <div class="col-sm-6">
-                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Award Winning</h6>
-                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Professional Staff</h6>
+                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Mudah Digunakan</h6>
+                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Tanggapan Client yang Cepat</h6>
                             </div>
                             <div class="col-sm-6">
-                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>24/7 Support</h6>
-                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Fair Prices</h6>
+                                <h6 class="mb-3"><i class="fa fa-check me-2"></i>Dapat Dipantau</h6>
+                                <h6 class="mb-0"><i class="fa fa-check me-2"></i>Fleksibel</h6>
                             </div>
                         </div>
                         
@@ -143,7 +145,7 @@
         <div class="container-xxl py-5" style="background-color: #b12121 ;">
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-                    <h2 id="jobs">What Solutions We Provide</h2>
+                    <h2 class="text-white mb-4 animated zoomIn"  id="jobs">Kategori</h2>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -151,9 +153,10 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">SEO Optimization</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+
+                            <h5 class="mb-3">Web & Programming</h5>
+                            <p>Menyediakan pekerjaan berupa menggunakan PHP, JavaScript, Wordpress, HTML, dan sebagainya.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -161,9 +164,10 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Web Design</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+
+                            <h5 class="mb-3">Design</h5>
+                            <p>Menyediakan pekerjaan Desain Website, Poster, Logo, Ilustrasi, dan Animasi, dan sebagainya.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -171,9 +175,10 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Social Media Marketing</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+
+                            <h5 class="mb-3">Writing</h5>
+                            <p>Menyediakan pekerjaan Writing berupa Scriptwriting, Content Writing, SEO Writing, Blog Writing dan sebagainya.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
@@ -181,19 +186,21 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Email Marketing</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+
+                            <h5 class="mb-3">Mobile App Development</h5>
+                            <p>Menyediakan pekerjaan Mobile berupa IOS programming, native, android programming, dan sebagainya.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
-                            </div>
-                            <h5 class="mb-3">PPC Advertising</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+                           
+                            <h5 class="mb-3">Photography</h5>
+                            <p>Menyediakan pekerjaan Photography berupa Photo jurnalis, Potrait Photograph, Foto Komersil, Foto Abstrak, dsb.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
@@ -201,9 +208,10 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">App Development</h5>
-                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                            <a class="btn px-3 mt-auto mx-auto" href="/jobsin">Read More</a>
+
+                            <h5 class="mb-3">Penerjemah</h5>
+                            <p>Menyediakan pekerjaan Penerjemah berupa penerjemah Bahasa Inggris, Prancis, Korea, Jepang, dsb.</p>
+                            <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -237,23 +245,24 @@
             <div class="container px-lg-5">
                 <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="position-relative d-inline text-primary ps-4">Our Projects</h6>
-                    <h2 id="portofolio">Recently Launched Projects</h2>
+                    <h2 id="portofolio">Portofolio</h2>
                 </div>
                 <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="col-12 text-center">
                         <ul class="list-inline mb-5" id="portfolio-flters">
                             <li class="btn px-3 pe-4 active" data-filter="*">All</li>
                             <li class="btn px-3 pe-4" data-filter=".first">Design</li>
-                            <li class="btn px-3 pe-4" data-filter=".second">Development</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">Programming Web & Mobile</li>
+                            <li class="btn px-3 pe-4" data-filter=".second">Writing</li> 
                         </ul>
                     </div>
                 </div>
                 <div class="row g-4 portfolio-container">
                     <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.1s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain1.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain1.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -263,9 +272,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.3s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain2.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain2.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -275,9 +284,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.6s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain3.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain3.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -287,9 +296,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.1s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain4.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain4.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -299,9 +308,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item first wow zoomIn" data-wow-delay="0.3s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain5.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain5.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -311,9 +320,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item second wow zoomIn" data-wow-delay="0.6s">
                         <div class="position-relative rounded overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                            <img class="img-fluid w-100" src="img/desain6.jpeg" alt="">
                             <div class="portfolio-overlay">
-                                <a class="btn btn-light" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
+                                <a class="btn btn-light" href="img/desain6.jpeg" data-lightbox="portfolio"><i class="fa fa-plus fa-2x text-primary"></i></a>
                                 <div class="mt-auto">
                                     <small class="text-white"><i class="fa fa-folder me-2"></i>Web Design</small>
                                     <a class="h5 d-block text-white mt-1 mb-0" href="">Project Name</a>
@@ -333,45 +342,45 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi4.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Alya Syifa F</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi2.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Zelika Ameria</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi1.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Diva Zahraisya P</h6>
+                                <small>Siswa</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>Penggunaannya mudah dan mendapat layanan yang cepat</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testi3.jpeg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h6 class="text-white mb-1">Client Name</h6>
-                                <small>Profession</small>
+                                <h6 class="text-white mb-1">Alya Sahrani</h6>
+                                <small>Mahasiswa</small>
                             </div>
                         </div>
                     </div>
@@ -451,10 +460,9 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
-                        <h5>Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Jl. Purwakarta Raya, No 229</p>
                         <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p><i class="fa fa-envelope me-3"></i>karyaone@example.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -462,14 +470,6 @@
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Popular Link</h5>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Project Gallery</h5>
@@ -494,24 +494,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h5 class="text-white mb-4">Newsletter</h5>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="container px-lg-5">
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved. 
+                            &copy; <a class="border-bottom" href="#">KaryaOne</a>, 2023. 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">

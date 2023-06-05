@@ -128,17 +128,18 @@ body {
   <body>
     <div class="container">
         <div class="login">
-            <form action="">
+            <form action="{{ route('login.post') }}" method="post">
+              @csrf
                 <h1>Sign In</h1>
                 <hr>
                 <p>KaryaOne</p>
                 <label for="">Email/Username</label>
-                <input type="text"
+                <input name="email" type="email"
                 placeholder="example@gmail.com">
                 <label for="">Password</label>
-                <input type="password" 
+                <input name="password" type="password" 
                 placeholder="Password">
-                <button>Sign In</button>
+                <button type="submit">Sign In</button>
                 <p>
                     <a href="#">Forgot Password</a>
                 </p>
@@ -148,6 +149,23 @@ body {
         <img src="img/login.jpg" alt="">
     </div>
 
-    </div> 
+    </div>
+    
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    @if($message = Session::get('success'))
+Swal.fire(
+  '{{ $message }}',
+  'success'
+)
+@endif
+@if($message = Session::get('errors')){
+Swal.fire({
+  icon: 'error',
+  text: '{{ $message }}',
+});
+}
+@endif
+  </script>
 </html>
