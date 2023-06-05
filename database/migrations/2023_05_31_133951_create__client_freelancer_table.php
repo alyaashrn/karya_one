@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('clientfreelancer', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->datetime('remember_token')->nullable();
             $table->string('nama');
             $table->string('email');
             $table->string('password');
@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('industri')->nullable();
             $table->datetime('ttl')->nullable();
             $table->integer('aksesrol');
+            
         });
     }
 

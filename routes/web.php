@@ -6,7 +6,7 @@ use App\Http\Controllers\DashboardClientController;
 use App\Http\Controllers\PortofolioController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\RegisterClientController;
-
+use App\Http\Controllers\LoginController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,6 +34,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::post('/login/post', [LoginController::class, 'login'])->name('login.post');
 Route::post('/registerfreelance', [RegisterClientController::class, 'store'])->name('register.post');
 Route::group(['middleware' => 'cekrol:1'],function(){
     Route::get('/dashboardcl', 'App\Http\Controllers\ClientController@index');

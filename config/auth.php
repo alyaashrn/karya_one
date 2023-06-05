@@ -107,7 +107,7 @@ return [
         ],
         'cekrols' => [
             'provider' => 'cekrols',
-            'table' => 'created_at',
+            'table' => 'remerber_me',
             'expire' => 60,
             'throttle' => 60,
         ],

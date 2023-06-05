@@ -128,17 +128,18 @@ body {
   <body>
     <div class="container">
         <div class="login">
-            <form action="">
+            <form action="{{ route('login.post') }}" method="post">
+              @csrf
                 <h1>Sign In</h1>
                 <hr>
                 <p>KaryaOne</p>
                 <label for="">Email/Username</label>
-                <input type="text"
+                <input name="email" type="email"
                 placeholder="example@gmail.com">
                 <label for="">Password</label>
-                <input type="password" 
+                <input name="password" type="password" 
                 placeholder="Password">
-                <button>Sign In</button>
+                <button type="submit">Sign In</button>
                 <p>
                     <a href="#">Forgot Password</a>
                 </p>
@@ -158,6 +159,13 @@ Swal.fire(
   '{{ $message }}',
   'success'
 )
+@endif
+@if($message = Session::get('errors')){
+Swal.fire({
+  icon: 'error',
+  text: '{{ $message }}',
+});
+}
 @endif
   </script>
 </html>
