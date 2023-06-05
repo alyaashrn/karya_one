@@ -51,7 +51,7 @@
           </div>
           </div>
           <div class="text-left">
-            <div style="margin-top: 15px; margin-right: 50px; margin-left: 50px;">All of the projects mentioned above were made possible by clients from around the world who chose to trust Freelancer.com with their website design needs. The success stories on this platform are proof that hiring a skilled Website Designer from Freelancer.com can make a significant difference in not only the look but also the performance of your website.</div>
+            <div style="margin-top: 15px; margin-right: 50px; margin-left: 50px;">All of the projects mentioned above were made possible by clients from around the world who chose to trust Freelancer.com with their website design needs. The success stories on this platform are proof that hiring a skilled Website Designer from Karyaone.com can make a significant difference in not only the look but also the performance of your website.</div>
             <div class="text-left">
                 <div style="margin-top: 15px; margin-right: 50px; margin-left: 50px;">We strongly recommend utilizing the extensive community of skilled website designers available on KaryaOne.com. By posting your project on KaryaOne.com, you can tap into the expertise of talented designers who possess vast knowledge in different design aspects, platforms, and tools. They will deliver exceptional results tailored to your specific requirements. Take action today and post your project on KaryaOne.com to hire exceptional website designers who can meet your needs effectively.</div>
             

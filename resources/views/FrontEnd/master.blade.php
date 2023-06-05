@@ -58,6 +58,7 @@
                               Find Jobs
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
                               <li><a class="dropdown-item" href="/jobs">By Skill</a></li>
                               <li><a class="dropdown-item" href="/byportofolio">By Portofolio</a></li>
                             </ul>
@@ -152,6 +153,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
+
                             <h5 class="mb-3">Web & Programming</h5>
                             <p>Menyediakan pekerjaan berupa menggunakan PHP, JavaScript, Wordpress, HTML, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
@@ -162,6 +164,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
+
                             <h5 class="mb-3">Design</h5>
                             <p>Menyediakan pekerjaan Desain Website, Poster, Logo, Ilustrasi, dan Animasi, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
@@ -172,6 +175,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
+
                             <h5 class="mb-3">Writing</h5>
                             <p>Menyediakan pekerjaan Writing berupa Scriptwriting, Content Writing, SEO Writing, Blog Writing dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
@@ -182,16 +186,18 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
+
                             <h5 class="mb-3">Mobile App Development</h5>
                             <p>Menyediakan pekerjaan Mobile berupa IOS programming, native, android programming, dan sebagainya.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                         <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
-                            </div>
+                           
                             <h5 class="mb-3">Photography</h5>
                             <p>Menyediakan pekerjaan Photography berupa Photo jurnalis, Potrait Photograph, Foto Komersil, Foto Abstrak, dsb.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
@@ -202,6 +208,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-home fa-2x"></i>
                             </div>
+
                             <h5 class="mb-3">Penerjemah</h5>
                             <p>Menyediakan pekerjaan Penerjemah berupa penerjemah Bahasa Inggris, Prancis, Korea, Jepang, dsb.</p>
                             <a class="btn px-3 mt-auto mx-auto" href="/jobs">Read More</a>
